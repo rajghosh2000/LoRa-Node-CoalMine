@@ -1,0 +1,130 @@
+{
+  "SF5": {
+    "status": "PASS",
+    "a_to_b": {
+      "delivered": true,
+      "received": true,
+      "latency_ms": 96,
+      "rssi": -92.0
+    },
+    "b_to_a": {
+      "delivered": true,
+      "received": true,
+      "latency_ms": 97,
+      "rssi": -93.0
+    },
+    "avg_latency_ms": 96.5
+  },
+  "SF6": {
+    "status": "PASS",
+    "a_to_b": {
+      "delivered": true,
+      "received": true,
+      "latency_ms": 129,
+      "rssi": -93.0
+    },
+    "b_to_a": {
+      "delivered": true,
+      "received": true,
+      "latency_ms": 128,
+      "rssi": -93.0
+    },
+    "avg_latency_ms": 128.5
+  },
+  "SF7": {
+    "status": "PASS",
+    "a_to_b": {
+      "delivered": true,
+      "received": true,
+      "latency_ms": 176,
+      "rssi": -93.0
+    },
+    "b_to_a": {
+      "delivered": true,
+      "received": true,
+      "latency_ms": 171,
+      "rssi": -104.0
+    },
+    "avg_latency_ms": 173.5
+  },
+  "SF8": {
+    "status": "PASS",
+    "a_to_b": {
+      "delivered": true,
+      "received": true,
+      "latency_ms": 247,
+      "rssi": -93.0
+    },
+    "b_to_a": {
+      "delivered": true,
+      "received": true,
+      "latency_ms": 245,
+      "rssi": -91.0
+    },
+    "avg_latency_ms": 246.0
+  },
+  "SF9": {
+    "status": "PASS",
+    "a_to_b": {
+      "delivered": true,
+      "received": true,
+      "latency_ms": 393,
+      "rssi": -93.0
+    },
+    "b_to_a": {
+      "delivered": true,
+      "received": true,
+      "latency_ms": 397,
+      "rssi": -91.0
+    },
+    "avg_latency_ms": 395.0
+  },
+  "SF10": {
+    "status": "PASS",
+    "a_to_b": {
+      "delivered": true,
+      "received": true,
+      "latency_ms": 722,
+      "rssi": -93.0
+    },
+    "b_to_a": {
+      "delivered": true,
+      "received": true,
+      "latency_ms": 711,
+      "rssi": -90.0
+    },
+    "avg_latency_ms": 716.5
+  },
+  "SF11": {
+    "status": "PASS",
+    "a_to_b": {
+      "delivered": true,
+      "received": true,
+      "latency_ms": 1356,
+      "rssi": -90.0
+    },
+    "b_to_a": {
+      "delivered": true,
+      "received": true,
+      "latency_ms": 1356,
+      "rssi": -90.0
+    },
+    "avg_latency_ms": 1356.0
+  },
+  "SF12": {
+    "status": "PASS",
+    "a_to_b": {
+      "delivered": true,
+      "received": true,
+      "latency_ms": 2611,
+      "rssi": -90.0
+    },
+    "b_to_a": {
+      "delivered": true,
+      "received": true,
+      "latency_ms": 2603,
+      "rssi": -90.0
+    },
+    "avg_latency_ms": 2607.0
+  }
+}

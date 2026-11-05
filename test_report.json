@@ -1,0 +1,186 @@
+{
+  "command_tests": [
+    {
+      "cmd": "SF=25",
+      "resp": [
+        "550581,CFG,A,\"Invalid SF (Allowed: 5 to 12)\",N/A,ERR"
+      ],
+      "valid": true
+    },
+    {
+      "cmd": "BD=9999",
+      "resp": [
+        "551820,CFG,A,\"Invalid BW (Common: 125, 250, 500 kHz)\",N/A,ERR"
+      ],
+      "valid": true
+    }
+  ],
+  "rf_tests": {
+    "Default (SF7, BW 125kHz)": {
+      "pdr_percent": 100.0,
+      "avg_latency_ms": 2355.5,
+      "avg_rssi_dbm": -82.2,
+      "details": [
+        {
+          "idx": 1,
+          "dir": "A->B",
+          "pass": true,
+          "latency_ms": 2324,
+          "rssi": -84.0
+        },
+        {
+          "idx": 2,
+          "dir": "B->A",
+          "pass": true,
+          "latency_ms": 2348,
+          "rssi": null
+        },
+        {
+          "idx": 3,
+          "dir": "A->B",
+          "pass": true,
+          "latency_ms": 2379,
+          "rssi": -80.0
+        },
+        {
+          "idx": 4,
+          "dir": "B->A",
+          "pass": true,
+          "latency_ms": 2360,
+          "rssi": -82.0
+        },
+        {
+          "idx": 5,
+          "dir": "A->B",
+          "pass": true,
+          "latency_ms": 2359,
+          "rssi": -82.0
+        },
+        {
+          "idx": 6,
+          "dir": "B->A",
+          "pass": true,
+          "latency_ms": 2363,
+          "rssi": -83.0
+        }
+      ]
+    },
+    "High-Speed (SF7, BW 250kHz)": {
+      "pdr_percent": 100.0,
+      "avg_latency_ms": 1056.5,
+      "avg_rssi_dbm": -82.0,
+      "details": [
+        {
+          "idx": 1,
+          "dir": "A->B",
+          "pass": true,
+          "latency_ms": 889,
+          "rssi": -81.0
+        },
+        {
+          "idx": 2,
+          "dir": "B->A",
+          "pass": true,
+          "latency_ms": 1076,
+          "rssi": -82.0
+        },
+        {
+          "idx": 3,
+          "dir": "A->B",
+          "pass": true,
+          "latency_ms": 1096,
+          "rssi": -82.0
+        },
+        {
+          "idx": 4,
+          "dir": "B->A",
+          "pass": true,
+          "latency_ms": 1089,
+          "rssi": -82.0
+        },
+        {
+          "idx": 5,
+          "dir": "A->B",
+          "pass": true,
+          "latency_ms": 1110,
+          "rssi": -82.0
+        },
+        {
+          "idx": 6,
+          "dir": "B->A",
+          "pass": true,
+          "latency_ms": 1079,
+          "rssi": -83.0
+        }
+      ]
+    },
+    "Long-Range (SF8, BW 125kHz)": {
+      "pdr_percent": 50.0,
+      "avg_latency_ms": 1444.6666666666667,
+      "avg_rssi_dbm": -82.0,
+      "details": [
+        {
+          "idx": 1,
+          "dir": "A->B",
+          "pass": true,
+          "latency_ms": 2848,
+          "rssi": -82.0
+        },
+        {
+          "idx": 2,
+          "dir": "B->A",
+          "pass": false,
+          "latency_ms": 3510,
+          "rssi": null
+        },
+        {
+          "idx": 3,
+          "dir": "A->B",
+          "pass": true,
+          "latency_ms": 752,
+          "rssi": -82.0
+        },
+        {
+          "idx": 4,
+          "dir": "B->A",
+          "pass": false,
+          "latency_ms": 3505,
+          "rssi": null
+        },
+        {
+          "idx": 5,
+          "dir": "A->B",
+          "pass": true,
+          "latency_ms": 734,
+          "rssi": -82.0
+        },
+        {
+          "idx": 6,
+          "dir": "B->A",
+          "pass": false,
+          "latency_ms": 3505,
+          "rssi": null
+        }
+      ]
+    }
+  },
+  "battery_status": {
+    "Node_A": [
+      "548102,BAT,A,\"4.26V (100%)\",N/A,QUERY"
+    ],
+    "Node_B": [
+      "466882,BAT,B,\"4.33V (100%)\",N/A,QUERY"
+    ]
+  },
+  "mismatch_test": {
+    "isolation_verified": true,
+    "details": {
+      "delivered": false,
+      "received": false,
+      "latency_ms": 3002,
+      "rssi": null,
+      "tx_lines": [],
+      "rx_lines": []
+    }
+  }
+}

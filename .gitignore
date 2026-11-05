@@ -1,0 +1,15 @@
+# Compiled Arduino binaries & caches
+*.hex
+*.bin
+*.elf
+*.zip
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Local IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
